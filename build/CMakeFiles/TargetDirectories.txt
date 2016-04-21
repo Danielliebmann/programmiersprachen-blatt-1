@@ -1,0 +1,4 @@
+C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/source/CMakeFiles/helloworld.dir
+C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/source/CMakeFiles/tests.dir

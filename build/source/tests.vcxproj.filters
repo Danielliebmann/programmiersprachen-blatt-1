@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\source\tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{76BC786B-0B57-3D88-8B78-E8C19F03092B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

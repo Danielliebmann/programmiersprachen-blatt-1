@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\b462c6194c0c7762686f837c3802d9bb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C6EDDE56-41D0-3BE6-9D95-259E93A8B669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
