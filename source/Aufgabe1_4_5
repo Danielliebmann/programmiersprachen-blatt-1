@@ -1,0 +1,30 @@
+Aufgabe 1.4:
+Initialisierung und Zuweisung:
+
+Initialisierung:
+Eine Initialisierung ist eine Definition mit expliziter Anfangswertzuweisung.
+Sie sagt dem Compiler, dass die Variable einen bestimmten Wert annehmen soll.
+int a = 4; //Variable a, Wert 4
+Die bereits bekannte Variable a soll hierbei mit dem Wert 4 belegt werden. 
+
+Zuweisung:
+Zuweisungen arbeiten mit Zuweisungsoperatoren wie: += und -=.
+Das heißt eine Zuweisung weißt dem linken Operanden den Wert des rechten Operanden zu.
+a += b 
+//bedeutet: 
+a = a + (b) //Klammer=rechter Ausdruck zuerst berechnet.
+
+Unterschiede:
+Die Initialisierung legt somit die Werte der Variablen fest und schafft die Voraussetzung, um diese Werte durch eine Zuweisung zu berechnen. Die Zuweisung ist somit ein Werkzeug um die Werte der Initialisierung zu berechnen.
+
+Aufgabe 1.5:
+Deklaration:
+Ein Programmausdruck der einen Namen in einen Scope ein- bzw. wiedereinführt.
+void foo(); //foo = identifier
+Der Compiler weißt dadurch, dass es eine Funktion foo gibt, die keinen Ausgabewert (void) besitzt und auch keine Parameter (Werte in Initialierung).
+
+Definition:
+Ist eine Deklaration, welche das Informationsobjekt bekannt macht oder, im Fall von Variablen dazu führt, dass Speicher für dieses Objekt freigehalten wird.
+Unterschied zur Deklaration: Eine Deklaration einer Klasse wie zum Beispiel (struct) wird dann zu einer Definition, wenn auf die Deklaration ein in geschweiften Klammern eingeschlossener Block folgt.
+z.B.: void foo() {};
+Hierbei wird ein Wert angelegt. Dabei weiß der Compiler nun, dass die Funktion foo nun exakt so aussieht.
