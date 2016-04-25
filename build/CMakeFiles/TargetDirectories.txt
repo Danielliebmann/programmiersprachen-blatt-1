@@ -1,3 +1,0 @@
-/home/nelu8763/programmiersprachen-blatt-1/build/source/CMakeFiles/1-7.dir
-/home/nelu8763/programmiersprachen-blatt-1/build/source/CMakeFiles/tests.dir
-/home/nelu8763/programmiersprachen-blatt-1/build/source/CMakeFiles/helloworld.dir
