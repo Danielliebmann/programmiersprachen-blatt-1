@@ -1,0 +1,39 @@
+1.3
+int main()
+{
+	int a = 9;				//Typ: int		Variable: a, Wert: 9
+	bool b = false;			//Typ: bool		Variable: b, Wert: false
+	char c = ’a’;			//Typ: char		Variable: c, Wert: a
+	double d = 1.3;			//Typ: double	Variable: d, Wert: 1.3
+	int const two = 2;		//Typ: int		Variable: two, Wert: 2 konstante
+	double e = a/two;		//Typ: double	Variable: a, Wert: a/two (4,5)
+
+two = d;	"const" steht für eine Konstante, also einem Wert der nicht verändert wird.
+return 0;	Bei einer Typkonvertierung wird ein Datentyp in einen anderen umgewandelt. Hierbei kann es zu einem Datenverlust kommen.
+}
+
+1.6
+// Die Signatur einer Funktion is definiert durch: den Namen und die Anzahl, Reihenfolge und Typen der Parameter
+#include <iostream>
+
+int var = 3;					//Eine globale Variable, sie gilt im ganzen Code
+
+double sum(double a, double b)	//*2 entgegengenomme Variablen, gelten innerhalb dieses Codeblocks
+{
+	return a + b;				//*
+}
+
+int square(int var)
+{
+	return var * var;
+}
+
+int main()
+{
+	for (int i = 0; i != 100; ++i)					//*Die Variable i ist nur innerhalb der for-Schleife bekannt
+	{
+	std::cout << "i^2 = " << square(i) << std::endl;
+	std::cout << "i+i = " << sum(i,i) << std::endl;	//*
+	}
+	return 0;
+}

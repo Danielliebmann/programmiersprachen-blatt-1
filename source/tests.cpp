@@ -67,10 +67,10 @@ float fract(float f)
 {
 	
 	int a =f;
-	if(f > a)
+	if (f > a)
 		return (f - a); //wenn float groeßer als a
 	else
-		return (a - f);	//wenn a groeßer als float
+		return (f - f);	//wenn a groeßer als float
 }
 TEST_CASE("describe_fract", "[fract]")
 {
