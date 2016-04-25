@@ -1,291 +1,337 @@
-The system is: Windows - 6.1.7601 - AMD64
+The system is: Linux - 4.4.5-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
+Compiler: /usr/sbin/cc 
 Build flags: 
 Id flags: 
 
 The output was:
 0
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:04:57 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdC\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "Debug\" wird erstellt.
-  Das Verzeichnis "Debug\CompilerIdC.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
-  CMakeCCompilerId.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdC\.\CompilerIdC.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
-FinalizeBuildStatus:
-  Die Datei "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdC\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.97
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-
-The C compiler identification is MSVC, found in "C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/3.5.2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is GNU, found in "/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/3.4.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: /usr/sbin/c++ 
 Build flags: 
 Id flags: 
 
 The output was:
 0
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:04:58 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdCXX\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "Debug\" wird erstellt.
-  Das Verzeichnis "Debug\CompilerIdCXX.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdCXX\.\CompilerIdCXX.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
-FinalizeBuildStatus:
-  Die Datei "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\3.5.2\CompilerIdCXX\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.42
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/3.5.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is GNU, found in "/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/3.4.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b5b8d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:04:58 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_b5b8d.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "cmTC_b5b8d.dir\Debug\" wird erstellt.
-  Das Verzeichnis "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
-  Das Verzeichnis "cmTC_b5b8d.dir\Debug\cmTC_b5b8d.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "cmTC_b5b8d.dir\Debug\cmTC_b5b8d.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5b8d.dir\Debug\\" /Fd"cmTC_b5b8d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\testCCompiler.c"
-  Microsoft (R) C/C++-Optimierungscompiler Version 19.00.23918 f�r x86
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5b8d.dir\Debug\\" /Fd"cmTC_b5b8d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\testCCompiler.c"
-  
-  testCCompiler.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_b5b8d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5b8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5b8d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b5b8d.dir\Debug\testCCompiler.obj
-  cmTC_b5b8d.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_b5b8d.exe
-  cmTC_b5b8d.vcxproj -> C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5b8d.pdb (Full PDB)
-FinalizeBuildStatus:
-  Die Datei "cmTC_b5b8d.dir\Debug\cmTC_b5b8d.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "cmTC_b5b8d.dir\Debug\cmTC_b5b8d.tlog\cmTC_b5b8d.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_b5b8d.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.74
+Run Build Command:"/usr/sbin/make" "cmTC_43a0f/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_43a0f.dir/build.make CMakeFiles/cmTC_43a0f.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_43a0f.dir/testCCompiler.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_43a0f.dir/testCCompiler.c.o   -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_43a0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a0f.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_43a0f.dir/testCCompiler.c.o  -o cmTC_43a0f -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ff5e0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:04:59 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_ff5e0.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "cmTC_ff5e0.dir\Debug\" wird erstellt.
-  Das Verzeichnis "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
-  Das Verzeichnis "cmTC_ff5e0.dir\Debug\cmTC_ff5e0.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "cmTC_ff5e0.dir\Debug\cmTC_ff5e0.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff5e0.dir\Debug\\" /Fd"cmTC_ff5e0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++-Optimierungscompiler Version 19.00.23918 f�r x86
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff5e0.dir\Debug\\" /Fd"cmTC_ff5e0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
-  
-  CMakeCCompilerABI.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff5e0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff5e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff5e0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ff5e0.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_ff5e0.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff5e0.exe
-  cmTC_ff5e0.vcxproj -> C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff5e0.pdb (Full PDB)
-FinalizeBuildStatus:
-  Die Datei "cmTC_ff5e0.dir\Debug\cmTC_ff5e0.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "cmTC_ff5e0.dir\Debug\cmTC_ff5e0.tlog\cmTC_ff5e0.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_ff5e0.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.45
+Run Build Command:"/usr/sbin/make" "cmTC_a6736/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_a6736.dir/build.make CMakeFiles/cmTC_a6736.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a6736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6736.dir/link.txt --verbose=1
+/usr/sbin/cc      -v CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o  -o cmTC_a6736 -rdynamic  
+Es werden eingebaute Spezifikationen verwendet.
+COLLECT_GCC=/usr/sbin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
+Ziel: x86_64-unknown-linux-gnu
+Konfiguriert mit: /build/gcc/src/gcc-5.3.0/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
+Thread-Modell: posix
+gcc-Version 5.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6736' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckfIOWU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6736 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_a6736/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_a6736.dir/build.make CMakeFiles/cmTC_a6736.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building C object CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/sbin/cc     -o CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a6736]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6736.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/cc      -v CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o  -o cmTC_a6736 -rdynamic  ]
+  ignore line: [Es werden eingebaute Spezifikationen verwendet.]
+  ignore line: [COLLECT_GCC=/usr/sbin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
+  ignore line: [Ziel: x86_64-unknown-linux-gnu]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc-5.3.0/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Thread-Modell: posix]
+  ignore line: [gcc-Version 5.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6736' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckfIOWU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6736 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckfIOWU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a6736] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
+    arg [CMakeFiles/cmTC_a6736.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_68fbe/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_68fbe.dir/build.make CMakeFiles/cmTC_68fbe.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_68fbe.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c11 -o CMakeFiles/cmTC_68fbe.dir/feature_tests.c.o   -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_68fbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68fbe.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_68fbe.dir/feature_tests.c.o  -o cmTC_68fbe -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_0af39/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_0af39.dir/build.make CMakeFiles/cmTC_0af39.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0af39.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c99 -o CMakeFiles/cmTC_0af39.dir/feature_tests.c.o   -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0af39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af39.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_0af39.dir/feature_tests.c.o  -o cmTC_0af39 -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_f3ccd/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_f3ccd.dir/build.make CMakeFiles/cmTC_f3ccd.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f3ccd.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c90 -o CMakeFiles/cmTC_f3ccd.dir/feature_tests.c.o   -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f3ccd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ccd.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_f3ccd.dir/feature_tests.c.o  -o cmTC_f3ccd -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_db32c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:05:00 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_db32c.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "cmTC_db32c.dir\Debug\" wird erstellt.
-  Das Verzeichnis "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
-  Das Verzeichnis "cmTC_db32c.dir\Debug\cmTC_db32c.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "cmTC_db32c.dir\Debug\cmTC_db32c.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_db32c.dir\Debug\\" /Fd"cmTC_db32c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  Microsoft (R) C/C++-Optimierungscompiler Version 19.00.23918 f�r x86
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_db32c.dir\Debug\\" /Fd"cmTC_db32c.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  
-  testCXXCompiler.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_db32c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_db32c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_db32c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_db32c.dir\Debug\testCXXCompiler.obj
-  cmTC_db32c.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_db32c.exe
-  cmTC_db32c.vcxproj -> C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_db32c.pdb (Full PDB)
-FinalizeBuildStatus:
-  Die Datei "cmTC_db32c.dir\Debug\cmTC_db32c.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "cmTC_db32c.dir\Debug\cmTC_db32c.tlog\cmTC_db32c.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_db32c.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.45
+Run Build Command:"/usr/sbin/make" "cmTC_bec05/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_bec05.dir/build.make CMakeFiles/cmTC_bec05.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_bec05.dir/testCXXCompiler.cxx.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_bec05.dir/testCXXCompiler.cxx.o -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bec05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec05.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_bec05.dir/testCXXCompiler.cxx.o  -o cmTC_bec05 -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dc45a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:05:00 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_dc45a.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "cmTC_dc45a.dir\Debug\" wird erstellt.
-  Das Verzeichnis "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
-  Das Verzeichnis "cmTC_dc45a.dir\Debug\cmTC_dc45a.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "cmTC_dc45a.dir\Debug\cmTC_dc45a.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc45a.dir\Debug\\" /Fd"cmTC_dc45a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
-  Microsoft (R) C/C++-Optimierungscompiler Version 19.00.23918 f�r x86
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc45a.dir\Debug\\" /Fd"cmTC_dc45a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
-  
-  CMakeCXXCompilerABI.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_dc45a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_dc45a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_dc45a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_dc45a.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_dc45a.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_dc45a.exe
-  cmTC_dc45a.vcxproj -> C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_dc45a.pdb (Full PDB)
-FinalizeBuildStatus:
-  Die Datei "cmTC_dc45a.dir\Debug\cmTC_dc45a.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "cmTC_dc45a.dir\Debug\cmTC_dc45a.tlog\cmTC_dc45a.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_dc45a.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.47
+Run Build Command:"/usr/sbin/make" "cmTC_87317/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_87317.dir/build.make CMakeFiles/cmTC_87317.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_87317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87317.dir/link.txt --verbose=1
+/usr/sbin/c++       -v CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87317 -rdynamic  
+Es werden eingebaute Spezifikationen verwendet.
+COLLECT_GCC=/usr/sbin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper
+Ziel: x86_64-unknown-linux-gnu
+Konfiguriert mit: /build/gcc/src/gcc-5.3.0/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release
+Thread-Modell: posix
+gcc-Version 5.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87317' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoIkuft.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_87317 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_87317/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_87317.dir/build.make CMakeFiles/cmTC_87317.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [Building CXX object CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/sbin/c++      -o CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_87317]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87317.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/c++       -v CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87317 -rdynamic  ]
+  ignore line: [Es werden eingebaute Spezifikationen verwendet.]
+  ignore line: [COLLECT_GCC=/usr/sbin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper]
+  ignore line: [Ziel: x86_64-unknown-linux-gnu]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc-5.3.0/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Thread-Modell: posix]
+  ignore line: [gcc-Version 5.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87317' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoIkuft.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_87317 /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoIkuft.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_87317] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..]
+    arg [CMakeFiles/cmTC_87317.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0] ==> [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0;/usr/lib;/lib]
+  implicit fwks: []
 
 
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_af0c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R)-Buildmodul, Version 14.0.25123.0
-Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-
-Der Buildvorgang wurde am 21.04.2016 19:05:01 gestartet.
-Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_af0c6.vcxproj" auf Knoten "1" (Standardziele).
-PrepareForBuild:
-  Das Verzeichnis "cmTC_af0c6.dir\Debug\" wird erstellt.
-  Das Verzeichnis "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
-  Das Verzeichnis "cmTC_af0c6.dir\Debug\cmTC_af0c6.tlog\" wird erstellt.
-InitializeBuildStatus:
-  "cmTC_af0c6.dir\Debug\cmTC_af0c6.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af0c6.dir\Debug\\" /Fd"cmTC_af0c6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\feature_tests.cxx"
-  Microsoft (R) C/C++-Optimierungscompiler Version 19.00.23918 f�r x86
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af0c6.dir\Debug\\" /Fd"cmTC_af0c6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\feature_tests.cxx"
-  
-  feature_tests.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_af0c6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_af0c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_af0c6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_af0c6.dir\Debug\feature_tests.obj
-  cmTC_af0c6.vcxproj -> C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\Debug\cmTC_af0c6.exe
-  cmTC_af0c6.vcxproj -> C:/Users/STYX/Documents/GitHub/programmiersprachen-helloworld/build/CMakeFiles/CMakeTmp/Debug/cmTC_af0c6.pdb (Full PDB)
-FinalizeBuildStatus:
-  Die Datei "cmTC_af0c6.dir\Debug\cmTC_af0c6.tlog\unsuccessfulbuild" wird gel�scht.
-  Aktualisieren des Timestamps von "cmTC_af0c6.dir\Debug\cmTC_af0c6.tlog\cmTC_af0c6.lastbuildstate".
-Die Erstellung von Projekt "C:\Users\STYX\Documents\GitHub\programmiersprachen-helloworld\build\CMakeFiles\CMakeTmp\cmTC_af0c6.vcxproj" ist abgeschlossen (Standardziele).
-
-Der Buildvorgang wurde erfolgreich ausgef�hrt.
-    0 Warnung(en)
-    0 Fehler
-
-Verstrichene Zeit 00:00:00.47
 
 
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_28944/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_28944.dir/build.make CMakeFiles/cmTC_28944.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_28944.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++14 -o CMakeFiles/cmTC_28944.dir/feature_tests.cxx.o -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_28944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28944.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_28944.dir/feature_tests.cxx.o  -o cmTC_28944 -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
@@ -297,6 +343,7 @@ Verstrichene Zeit 00:00:00.47
     Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
     Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
@@ -324,6 +371,7 @@ Verstrichene Zeit 00:00:00.47
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -337,5 +385,152 @@ Verstrichene Zeit 00:00:00.47
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_13d0c/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_13d0c.dir/build.make CMakeFiles/cmTC_13d0c.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_13d0c.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++11 -o CMakeFiles/cmTC_13d0c.dir/feature_tests.cxx.o -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_13d0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d0c.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_13d0c.dir/feature_tests.cxx.o  -o cmTC_13d0c -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/sbin/make" "cmTC_60cbc/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_60cbc.dir/build.make CMakeFiles/cmTC_60cbc.dir/build
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_60cbc.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++98 -o CMakeFiles/cmTC_60cbc.dir/feature_tests.cxx.o -c /home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_60cbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60cbc.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_60cbc.dir/feature_tests.cxx.o  -o cmTC_60cbc -rdynamic 
+make[1]: Verzeichnis „/home/nelu8763/programmiersprachen-blatt-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
