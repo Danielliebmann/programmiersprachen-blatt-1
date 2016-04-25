@@ -66,16 +66,17 @@ TEST_CASE("describe_sumMultiples", "[sumMultiples]")
 float fract(float f)
 {
 	
-	int a =f;
-	if (f > a)
+	
+	if (f < 0)
+		f = (-1)*f;
+	int a = f;		//Zahl casten
 		return (f - a); //wenn float groeßer als a
-	else
-		return (f - f);	//wenn a groeßer als float
+
 }
 TEST_CASE("describe_fract", "[fract]")
 {
 	REQUIRE(fract(6.77) == Approx(0.77));
-	REQUIRE(fract(6.25) == Approx(0.25));
+	REQUIRE(fract(-6.25) == Approx(0.25));
 }	
 
 double Volumen(double r, double h)//M_PI = pi, Volumen Zylinder
